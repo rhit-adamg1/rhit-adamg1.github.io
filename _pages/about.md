@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Visiting Assistant Professor at <a href='https://www.rose-hulman.edu/' taget=_blank>Rose-Hulman Institute of Technology.</a>
+subtitle: <a href='#'>Affiliations</a>. Visiting Assistant Professor at <a href='https://www.rose-hulman.edu/' target=_blank>Rose-Hulman Institute of Technology.</a>
 
 profile:
   align: right
