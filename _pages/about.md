@@ -6,7 +6,7 @@ subtitle: Visiting Assistant Professor at <a href='https://www.rose-hulman.edu/'
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>5500 Wabash Avenue</p>
