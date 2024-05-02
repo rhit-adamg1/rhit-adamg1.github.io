@@ -7,7 +7,7 @@ subtitle: Visiting Assistant Professor at <a href='https://www.rose-hulman.edu/'
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>5500 Wabash Avenue</p>
     <p>Terre Haute, IN 47803</p>
