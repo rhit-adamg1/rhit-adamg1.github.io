@@ -4,7 +4,7 @@
     "label": "Visiting Professor of Mechanical Engineering",
     "image": "",
     "email": "adamg1@rose-hulman.edu",
-    "phone": "(812) 877-3264",
+    "phone": "(812) 877-8632",
     "url": "",
     "summary": "",
     "location": {
@@ -24,13 +24,13 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Department of Mechanical Engineering, Rose-Hulman Institute of Technology",
+      "position": "Visiting Professor of Mechanical Engineering",
+      "url": "https://rose-hulman.edu",
+      "startDate": "2023-08-16",
+      "endDate": "",
+      "summary": "",
+      "highlights": [""]
     }
   ],
   "volunteer": [
