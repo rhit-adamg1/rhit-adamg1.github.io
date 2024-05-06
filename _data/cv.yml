@@ -2,18 +2,16 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Georges Adam
     - name: Languages
-      value: English, German
+      value: English, Portuguese, Greek, and Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Mechanical Engineering
+      institution: Purdue University, West Lafayette, IN, USA
+      year: 2022
       description:
         - Description 1.
         - Description 2.
@@ -21,12 +19,12 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: B.S. in Mechanical Engineering and Engineering Physics
+      institution: Rose-Hulman Institute of Technology, Terre Haute, IN, USA
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Spanish Minor
+        - Semiconductor Materials and Devices Certificate
 
 - title: Experience
   type: time_table
