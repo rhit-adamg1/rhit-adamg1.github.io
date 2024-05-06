@@ -33,18 +33,6 @@
       "highlights": ""
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
       "institution": "Purdue University, West Lafayette, IN, USA",
@@ -52,7 +40,7 @@
       "url": "https://www.purdue.edu/",
       "area": "Microrobotics and Micromanipulation",
       "studyType": "PhD in Mechanical Engineering",
-      "startDate": "",
+      "startDate": "2017",
       "endDate": "2022",
       "score": "10",
       "courses": ""
@@ -60,8 +48,11 @@
     {
       "institution": "Rose-Hulman Institute of Technology, Terre Haute, IN, USA",
       "location": "Terre Haute, IN",
+      "url": "https://www.rose-hulman.edu/",
       "studyType": "BS in Mechanical Engineering and Engineering Physics",
-      "area": "Spanish Minor and Semiconductor Materials and Devices Certificate"
+      "area": "Spanish Minor and Semiconductor Materials and Devices Certificate",
+      "startDate": "2013",
+      "endDate": "2017"
     }
   ],
   "awards": [
@@ -138,6 +129,18 @@
       "releaseDate": "1916-03-20",
       "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "skills": [
