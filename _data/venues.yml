@@ -8,8 +8,11 @@
 "Vision":
   color: "#009f36"
 
-"Advanced Intelligent Systems":
+"Micromachines":
   color: "#009efd"
 
 "AdvIntSys":
   color: "#000afd"
+
+"Robotics":
+  color: "#438016"
