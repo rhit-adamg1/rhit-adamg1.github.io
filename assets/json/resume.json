@@ -64,11 +64,28 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "World's Smallest Drum",
+      "date": "2024",
+      "awarder": "Guinness Book of World Records",
+      "url": "",
+      "summary": "Guinness world record for the smallest 3D-printed sculpture of a percussion instrument (47μm)."
+    },
+    {
+      "title": "Finalist for Best Conference Paper Award",
+      "date": "2022",
+      "awarder": "MARSS Conference",
+      "summary": "Within the top 3 best conference papers at the International Conference on Manipulation, Automation, and Robotics at Small Scales (MARSS) "
+    },
+    {
+      "title": "Chateaubrind Fellowship",
+      "date": "2020",
+      "awarder": "French Embassy in the United States",
+      "summary": "Fellowship awarded by the French Embassy to outstanding PhD students from American universities who wish to conduct research in France"
+    },
+    {
+      "title": "Best Poster Award",
+      "date": "2019",
+      "awarder": "Advancing Health Conference, Indianapolis, USA"
     }
   ],
   "certificates": [
