@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Visiting Assistant Professor at <a href='https://www.rose-hulman.edu/' target="_blank" >Rose-Hulman Institute of Technology.</a>
 
