@@ -169,28 +169,46 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming Languages",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "MATLAB",
+        "C/C++, Arduino",
+        "Assembly"
+      ]
+    },
+    {
+      "name": "Software and Tools",
+      "keywords": [
+        "SolidWorks and AutoCAD",
+        "COMSOL Multiphysics",
+        "Eagle",
+        "Mathemathica/Maple",
+        "LateX"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "Portuguese",
+      "fluency": "",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "",
+      "icon": ""
+    },
+    {
+      "language": "Greek",
+      "fluency": "",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "",
       "icon": ""
     }
   ],
