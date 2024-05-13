@@ -188,6 +188,23 @@
         "Mathemathica/Maple",
         "LateX"
       ]
+    },
+    {
+      "name": "Microfabrication",
+      "keywords": [
+        "Photolithography",
+        "E-Beam/Sputtering Metal Deposition",
+        "Wet/Dry Etching",
+        "Chemical Vapor Deposition (CVD/PECVD)",
+        "Two-Photon Polymerization (TPP)"
+      ]
+    },
+    {
+      "name": "Micro/Nanoscale Imaging",
+      "keywords": [
+        "Scanning Electron Microscopy (SEM)",
+        "Atomic Force Microscopy (AFM)"
+      ]
     }
   ],
   "languages": [
