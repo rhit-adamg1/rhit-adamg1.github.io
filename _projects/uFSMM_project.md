@@ -4,7 +4,7 @@ title: $\mu$ FSMM
 description: The micro-force sensing magnetic mobile microrobot
 img: assets/img/12.jpg
 importance: 1
-category: Research
+category: research
 related_publications: true
 ---
 
