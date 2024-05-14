@@ -1,6 +1,6 @@
 ---
 layout: page
-title: $\mu$ FSMM
+title: μFSMM
 description: The micro-force sensing magnetic mobile microrobot
 img: assets/img/12.jpg
 importance: 1
@@ -8,6 +8,7 @@ category: research
 related_publications: true
 ---
 
+Design, fabrication, and testing of a wireless magnetic microrobot capable of 2D micro-force sensing using standard photolithography and dry etching techniques. This microrobot is mostly used for biomedical applications, such as stiffness characterization of tissue phantoms and safe cell manipulation. 
 This is a simple description of the $\mu$ FSMM project. 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
