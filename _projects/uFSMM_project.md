@@ -8,6 +8,11 @@ category: research
 related_publications: true
 ---
 
-Design, fabrication, and testing of a wireless magnetic microrobot capable of 2D micro-force sensing using standard photolithography and dry etching techniques. This microrobot is mostly used for biomedical applications, such as stiffness characterization of tissue phantoms and safe cell manipulation. 
-This is a simple description of the $\mu$ FSMM project. 
+The micro-force sensing magnetic mobile microrobot  ($\mu$ FSMM) is a microrobot targeted for *in-vitro* uses, especially for biomedical and micromanipulation applications. The microrobot is equipped with an on-board vision-based micro-force sensor, capable of real-time force sensing and sub-$\mu$ N resolution. Additionally, the $\mu$ FSMM is actuated using in-plane gradient magnetic fields, provided by 2 pairs of co-planar electromagnetic coils. 
+
+### Fabrication
+
+### Vision-System
+
+### Applications
 
