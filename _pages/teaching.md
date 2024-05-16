@@ -7,9 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-
-### Rose-Hulman Institute of Technology
-
 #### ME123 - Computer Programming
 Software tools and engineering processes for mechanical engineers. Topics may include: structured programming (Matlab), simulation of rigid body motion, presentation software, and spreadsheets. Introduction to teaming and creativity.
 
