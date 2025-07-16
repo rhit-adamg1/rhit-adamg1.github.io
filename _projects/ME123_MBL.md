@@ -1,12 +1,19 @@
 ---
 layout: page
 title: Intro to Programming with MBL
-description: with background image
+description: A Mastery-based Approach for an Intro to Programming course fostering learning-from-failure (LFF) ideals
 img: assets/img/12.jpg
-importance: 2
+importance: 1
 category: pedagogy
 related_publications: true
 ---
+
+**Course:**
+This is an introduction to programming course for Mechanical Engineers, focusing on computer tools that will be used in future classes and their professional careers (mainly Matlab). There is no expectation of prior programming knowledge, so building a strong programming foundation is a key outcome of this class.
+
+This course is taught in a 10-week quarter system (+ 1 week for finals) and its sections are capped around 24-28 students, with an overall annual enrollment of around 200 students. 
+
+**Description:**
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
