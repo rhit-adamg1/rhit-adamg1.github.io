@@ -11,7 +11,7 @@ This work has been started as a fruit of a KEEN Faculty Development Workshop (<i
 
 ### Course: 
 
-This is an introduction to programming for Mechanical Engineers, focusing on computer tools that will be used in future classes and their professional careers, mainly Matlab. There is no expectation of prior programming knowledge, so building a strong programming foundation is a key outcome of this class. The use of such computer tools, teamwork skills, and design analysis will be incorporated into several mini-projects throughout the course. 
+<p style="text-align: justify;">This is an introduction to programming for Mechanical Engineers, focusing on computer tools that will be used in future classes and their professional careers, mainly Matlab. There is no expectation of prior programming knowledge, so building a strong programming foundation is a key outcome of this class. The use of such computer tools, teamwork skills, and design analysis will be incorporated into several mini-projects throughout the course. </p>
 Below is a list of course objectives for ME123. After completing this course, students will be able to: 
 •	Write structured programs in Matlab to solve engineering problems. 
 •	Create a variety of engineering plots and graphs using Matlab.
@@ -21,7 +21,7 @@ Below is a list of course objectives for ME123. After completing this course, st
 
 ### Description:
 
-There are three main goals of this course redesign: (1) to increase the level of mastery over fundamental programming skills so they can be better utilized/leveraged in future classes as well as their professional careers; (2) to make sure every student is getting the most out of the course, despite its innate bimodal distribution; and (3) to more effectively teach algorithmic thinking. 
+<p style="text-align: justify;">There are three main goals of this course redesign: (1) to increase the level of mastery over fundamental programming skills so they can be better utilized/leveraged in future classes as well as their professional careers; (2) to make sure every student is getting the most out of the course, despite its innate bimodal distribution; and (3) to more effectively teach algorithmic thinking. </p>
 
 In the current version of the class, we start by presenting the most basic and fundamental programming concepts, which build upon each other to allow students to solve more complex problems. The material is reinforced through daily homework problems and mini-projects (3 total), as well as plenty of in-class time to work on programming skills. After these fundamental skills are covered, we simply dive into a few applications, such as numerical integration and Euler’s method. In principle, they are simply used to get students exposed to a wider range of applications, but they will be revisited in more depth in the following programming class in the curriculum, Numerical Methods (ME327). 
 
