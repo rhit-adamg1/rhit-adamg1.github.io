@@ -25,10 +25,19 @@
   "work": [
     {
       "name": "Department of Mechanical Engineering, Rose-Hulman Institute of Technology",
+      "position": "Assistant Professor of Mechanical Engineering",
+      "url": "https://rose-hulman.edu",
+      "startDate": "2024",
+      "endDate": "",
+      "summary": "",
+      "highlights": ""
+    },
+    {
+      "name": "Department of Mechanical Engineering, Rose-Hulman Institute of Technology",
       "position": "Visiting Professor of Mechanical Engineering",
       "url": "https://rose-hulman.edu",
       "startDate": "2023",
-      "endDate": "",
+      "endDate": "2024",
       "summary": "",
       "highlights": ""
     },
