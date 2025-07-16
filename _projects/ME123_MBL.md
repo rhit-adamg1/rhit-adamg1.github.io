@@ -7,14 +7,41 @@ importance: 1
 category: pedagogy
 related_publications: true
 ---
+This work has been started as a fruit of a KEEN Faculty Development Workshop (<i>Learning From Failure with Mastery-Based Learning</i>) that I was a part of in the summer of 2024. After the workshop, I also received a summer course development grant (summer 2025) to continue with the work.
 
 ### Course: 
 
-This is an introduction to programming course for Mechanical Engineers, focusing on computer tools that will be used in future classes and their professional careers (mainly Matlab). There is no expectation of prior programming knowledge, so building a strong programming foundation is a key outcome of this class.
+This is an introduction to programming for Mechanical Engineers, focusing on computer tools that will be used in future classes and their professional careers, mainly Matlab. There is no expectation of prior programming knowledge, so building a strong programming foundation is a key outcome of this class. The use of such computer tools, teamwork skills, and design analysis will be incorporated into several mini-projects throughout the course. 
+Below is a list of course objectives for ME123. After completing this course, students will be able to: 
+•	Write structured programs in Matlab to solve engineering problems. 
+•	Create a variety of engineering plots and graphs using Matlab.
+•	Implement simple numerical methods for numerical integration. 
+•	Troubleshoot with confidence. 
 
-This course is taught in a 10-week quarter system (+ 1 week for finals) and its sections are capped around 24-28 students, with an overall annual enrollment of around 200 students. 
 
-## Description:
+### Description:
+
+There are three main goals of this course redesign: (1) to increase the level of mastery over fundamental programming skills so they can be better utilized/leveraged in future classes as well as their professional careers; (2) to make sure every student is getting the most out of the course, despite its innate bimodal distribution; and (3) to more effectively teach algorithmic thinking. 
+
+In the current version of the class, we start by presenting the most basic and fundamental programming concepts, which build upon each other to allow students to solve more complex problems. The material is reinforced through daily homework problems and mini-projects (3 total), as well as plenty of in-class time to work on programming skills. After these fundamental skills are covered, we simply dive into a few applications, such as numerical integration and Euler’s method. In principle, they are simply used to get students exposed to a wider range of applications, but they will be revisited in more depth in the following programming class in the curriculum, Numerical Methods (ME327). 
+
+There is no expectation of prior programming knowledge, so all the content is presented in its most basic form. Nowadays, a significant number of Y1 students come into this class with previous programming experience, which creates a bimodal distribution for this class. On one hand, we have students with significant experience which perceive the class as too elementary and slow-paced. On the other, students with no prior experience require more time to digest and fully understand the fundamental building blocks of programming. These students, in particular, feel like the course is too fast-paced and usually cannot fully comprehend the more advanced skills because they are yet to master the fundamental building blocks of programming. This makes it difficult to ensure all students get the most out of this class, but it is one of the main points that needs to be addressed in this course redesign. 
+Another main goal of this work is to introduce more material in algorithmic thinking, which allows students to break down more complex problems, expand their programming capabilities, and apply their skills to more challenging problems. It has been noticed that when students get to more advanced classes, such as Numerical Methods, a significant portion of them have difficulty extending their ME123 knowledge and applying them to slightly different problems. Even though they only need to use their fundamental building blocks, their algorithmic thinking and comfort with such skills is lacking, which in turn causes many difficulties in more advanced courses. 
+In order to address these 3 main challenges, a Mastery-based Learning (MBL) approach is proposed. The inspiration behind this approach comes from a KEEN workshop that I attended last summer (Learning from Failure with Mastey-based Learning), which showed me the capabilities of MBL and gave me some great ideas on how to implement it to our curriculum. In general, the MBL approach only allows students to progress through the class once they have demonstrated “mastery” over each key element of the course. This is done by multiple assessments throughout the quarter, with the possibility of retaking each of them until you mastered it. There is no partial credit for these assessments, either the student mastered the skill, or they are still lacking and need to work more on it to continue. For example, the first fundamental skill in the class is “Scripts, Printing, Commenting, and Debugging”. During the first week, all students will be assessed on this skill. If they have demonstrated mastery, they can attempt to demonstrate mastery on the next skill (which builds upon it) during the next assessment period. For the students that weren’t able to pass the first assessment, they will then have the opportunity to reassess. These quizzes will test the same skills, but will be different, thus ensuring students are mastering the content rather than memorizing the previous solutions. Each assessment will consist of a short multiple choice Moodle quiz (for theoretical knowledge checks), as well as a practical coding problem. Both need to be completely correct to demonstrate mastery over that specific skill. 
+The figure below shows a sample of what the structure and progression of the skills will look like for the course. All skills in dark blue are considered fundamental and mastery of them, along with at least one project, is the minimum required to pass the class. No matter how many assessments a student has passed, they are still required to attend class and at least be exposed to all of the class content, delivered through daily lectures. The green boxes represent supplemental skills that will be covered in class and will help students in the future, however are not strictly required. I will probably incorporate a hierarchy of these as well, so they can’t be done at any order. Finally, we have the purple boxes, which are labeled as “Self-Directed Learning Projects”. These skills are meant for students that want to explore a specific advanced topic in programming/Matlab, which will not be covered during regular lectures. The plan is to come up with some material that students can read, follow a few examples, then implement the skill on their own. This is meant to cater to the student body that has significant coding experience and incentivize them to learn new and “cool” topics.
+
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/MBL_SkillTree.jpg" title="MBL Skill Tree" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Proposed distribution of skills throughout the quarter. The skills in dark blue, inside of the “Units” are the fundamental skills of the course and the bare minimum required to pass the class, with at least one project completed. The skills in green are supplementary skills that would bump up the students’ grades and allow them to apply the fundamental skills in different ways. Lastly, the purple skills are “Self-Directed Learning Projects”, which are targeted for more advanced students to go above and beyond and learn new skills on their own. These are just some examples of such skills. 
+</div>
+
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -43,14 +70,7 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
