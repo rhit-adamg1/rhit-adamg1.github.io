@@ -8,7 +8,7 @@ category: pedagogy
 related_publications: true
 ---
 
-## Course: 
+### Course: 
 
 This is an introduction to programming course for Mechanical Engineers, focusing on computer tools that will be used in future classes and their professional careers (mainly Matlab). There is no expectation of prior programming knowledge, so building a strong programming foundation is a key outcome of this class.
 
