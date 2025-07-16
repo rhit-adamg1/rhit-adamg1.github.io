@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: Intro to Programming with MBL
 description: with background image
 img: assets/img/12.jpg
 importance: 2
-category: work
+category: pedagogy
 related_publications: true
 ---
 

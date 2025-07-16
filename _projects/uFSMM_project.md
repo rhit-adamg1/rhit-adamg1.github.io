@@ -4,7 +4,7 @@ title: μFSMM
 description: The Micro-Force Sensing Magnetic Mobile Microrobot
 img: assets/img/12.jpg
 importance: 1
-category: research
+category: microrobotic research
 related_publications: true
 ---
 
