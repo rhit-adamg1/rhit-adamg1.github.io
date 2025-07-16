@@ -34,7 +34,7 @@ The figure below shows a sample of what the structure and progression of the ski
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/MBL_SkillTree.jpg" title="MBL Skill Tree" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/MBL_SkillTree.png" title="MBL Skill Tree" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
