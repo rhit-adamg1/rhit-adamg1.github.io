@@ -1,24 +1,16 @@
 ---
 layout: distill
-title: Testing Blog Posts for Self-Directed Learning Projects
-description: A page outlining a self-directed programming project using Matlab
+title: Self-Directed Learning Projects: The Game of Life
+description: A page outlining how to animate Conway's game of life in Matlab as a part of a self-directed learning project for ME123 with MBL.
 tags: distill formatting
-date: 2021-05-22
+date: 2025-07-16
 featured: true
 
 authors:
-  - name: Albert Einstein
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+  - name: Georges Adam
+    url: "rhit-adamg1.github.io/"
     affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
-    affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
+      name: Rose-Hulman Institute of Technology, Terre Haute
 
 bibliography: 2018-12-22-distill.bib
 
