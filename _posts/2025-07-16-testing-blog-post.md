@@ -21,7 +21,7 @@ bibliography: 2018-12-22-distill.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: Equations
+  - name: Introduction
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
@@ -52,7 +52,18 @@ _styles: >
   }
 ---
 
-## Equations
+## Introduction
+
+Conway's Game of Life is a cellular automaton devised by British Mathematicial John Conway in the 1970's. It is considered a zero-player game since after the initial input (state), no further input is required by the user. Following the simple rules, different initial states can cause very different and complex structures. 
+
+The game is set up on an infinite square grid (here we will bound it for simplicity) and each grid space is considered a cell. This cell can be either dead or alive, and it interacts with its 8 neighbors. For each "turn" (or time step), the following can occur to each cell depending on its neighbors configuration:
+
+<ol>
+    <li>Any live cell with fewer than two neighbors dies by underpopulation</li>
+    <li>Any live cell with two or three live neighbors lives on to the next generation</li>
+    <li>Any live cell with more than 3 live neighbors dies by overpopulation</li>
+    <li>Any dead cell with exactly 3 live neighbors becomes a live cell by reproduction</li>
+</ol>
 
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
 You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.
