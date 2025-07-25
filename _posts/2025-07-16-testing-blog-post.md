@@ -67,9 +67,11 @@ The game is set up on an infinite square grid (here we will bound it for simplic
 
 Here are some examples of the game of life in action: 
 
-<div class="row">
-    <img src="\assets\img\Conways_game_of_life_breeder_animation.gif" alt="Alt text">
+<div class="row" style="text-align: center;">
+    <img src="\assets\img\Conways_game_of_life_breeder_animation.gif" alt="Alt text" class="center">
 </div>
+
+
 
 ---
 
