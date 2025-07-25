@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Self-Directed Learning Projects: The Game of Life
+title: Self-Directed Learning Projects - The Game of Life
 description: A page outlining how to animate Conway's game of life in Matlab as a part of a self-directed learning project for ME123 with MBL.
 tags: distill formatting
 date: 2025-07-16
