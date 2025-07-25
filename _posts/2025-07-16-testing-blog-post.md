@@ -65,6 +65,16 @@ The game is set up on an infinite square grid (here we will bound it for simplic
     <li>Any dead cell with exactly 3 live neighbors becomes a live cell by reproduction</li>
 </ol>
 
+Here are some examples of the game of life in action: 
+
+<div class="row">
+    <img src="\assets\img\Conways_game_of_life_breeder_animation.gif" alt="Alt text">
+</div>
+
+---
+
+## Stuff from Sample Post
+
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
 You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.
 If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
