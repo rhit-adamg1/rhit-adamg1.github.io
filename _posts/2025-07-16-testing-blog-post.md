@@ -71,6 +71,8 @@ Here are some examples of the game of life in action:
     <img src="\assets\img\Conways_game_of_life_breeder_animation.gif" alt="Alt text" class="center">
 </div>
 
+## Let's Get Started with some Matlab Code
+
 
 
 ---
