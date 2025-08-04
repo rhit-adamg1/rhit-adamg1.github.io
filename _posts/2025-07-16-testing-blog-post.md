@@ -73,6 +73,9 @@ Here are some examples of the game of life in action:
 
 ## Let's Get Started with some Matlab Code
 
+<div class="row" style="text-align: center;">
+    <img src="\assets\img\Conway_Types.png" alt="Alt text" class="center">
+</div>
 
 
 ---
