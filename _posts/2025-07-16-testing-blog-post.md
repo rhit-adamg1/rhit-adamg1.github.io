@@ -68,6 +68,14 @@ The game is set up on an infinite square grid (here we will bound it for simplic
 
 Here are some examples of the game of life in action: 
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Conways_game_of_life_breeder_animation.gif" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Old gif formatting:
+
 <div class="row" style="text-align: center;">
     <img src="\assets\img\Conways_game_of_life_breeder_animation.gif" alt="Example Gif" class="center">
 </div>
