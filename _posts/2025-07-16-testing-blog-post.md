@@ -26,6 +26,7 @@ toc:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
+  - name: Let's Get Started with some Matlab Code
   - name: Citations
   - name: Footnotes
   - name: Code Blocks
@@ -68,13 +69,18 @@ The game is set up on an infinite square grid (here we will bound it for simplic
 Here are some examples of the game of life in action: 
 
 <div class="row" style="text-align: center;">
-    <img src="\assets\img\Conways_game_of_life_breeder_animation.gif" alt="Alt text" class="center">
+    <img src="\assets\img\Conways_game_of_life_breeder_animation.gif" alt="Example Gif" class="center">
 </div>
+
+For this project, you will create your own Game of Life function using Matlab, and try out different initial conditions to see how they progress. While working on this project, you will practice *algorithmic thinking and problem solving*, you will learn how to *set default values for functions*, how to make *plot animations* in Matlab, and how to use the *spy* function. 
 
 ## Let's Get Started with some Matlab Code
 
+
+## Example Structures
+
 <div class="row" style="text-align: center;">
-    <img src="\assets\img\Conway_Types.png" alt="Alt text" class="center">
+    <img src="\assets\img\Conway_Types.png" alt="Table of different famous structures" class="center">
 </div>
 
 
