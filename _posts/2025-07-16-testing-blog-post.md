@@ -100,11 +100,12 @@ Add photo here of what the output is supposed to look like.
 
 ### Function Default Values
 
-{% highlight javascript %}
+{% highlight matlab %}
 function [] = Game_of_Life(curr_gen, total_gen)
 % Setting default values (if empty)
 if isempty(curr_gen)
   curr_gen = zeros(32);
+end
 end
 {% endhighlight %}
 
@@ -114,6 +115,11 @@ end
 <!-- <div class="row" style="text-align: center;">
     <img src="\assets\img\Conway_Types.png" alt="Table of different famous structures" class="center">
 </div> -->
+
+{% highlight matlab %}
+curr_gen = zeros(32);
+curr_gen(5:7, 8) = [1; 1; 1];
+{% endhighlight %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
