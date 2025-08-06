@@ -116,7 +116,7 @@ end
     <img src="\assets\img\Conway_Types.png" alt="Table of different famous structures" class="center">
 </div> -->
 
-{% highlight matlab %}
+{% highlight m %}
 curr_gen = zeros(32);
 curr_gen(5:7, 8) = [1; 1; 1];
 {% endhighlight %}
