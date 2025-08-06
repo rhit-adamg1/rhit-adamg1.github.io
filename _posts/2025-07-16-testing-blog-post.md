@@ -26,7 +26,7 @@ toc:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
-  - name: Let's Get Started with some Matlab Code
+  - name: Getting Started with some Matlab Code
   - name: Citations
   - name: Footnotes
   - name: Code Blocks
@@ -66,41 +66,61 @@ The game is set up on an infinite square grid (here we will bound it for simplic
     <li>Any dead cell with exactly 3 live neighbors becomes a live cell by reproduction</li>
 </ol>
 
-Here are some examples of the game of life in action: 
+Here is an example of the game of life in action: 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Conways_game_of_life_breeder_animation.gif" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    An example of how the Game of Life can create interesting and complex structures based on initial conditions and the simple rules of the game.
+</div>
 
-Old gif formatting:
-
+<!-- Old gif formatting:
 <div class="row" style="text-align: center;">
     <img src="\assets\img\Conways_game_of_life_breeder_animation.gif" alt="Example Gif" class="center">
-</div>
+</div> -->
 
 For this project, you will create your own Game of Life function using Matlab, and try out different initial conditions to see how they progress. While working on this project, you will practice *algorithmic thinking and problem solving*, you will learn how to *set default values for functions*, how to make *plot animations* in Matlab, and how to use the *spy* function. 
 
-## Let's Get Started with some Matlab Code
+## Getting Started with some Matlab Code
 
 In this project, we will store our current generations in a matrix format. The matrix size (rows and columns) will determine the size of your Game of Life panel, and each entry in the matrix represents one individual cell. If the matrix entry is equal to 0, then the cell is dead; if it is equal to 1, then the cell is alive. We are using a matrix here because it makes it easier to compute how it will change for each generation and it also makes it easier to plot it. 
 
 `TODO #1:` To get started, manually create a 16x16 matrix with zeros and then add three live cells on top of each other (making a vertical line - Blinker). To plot this instance, use the ***spy*** Matlab function ([see documentation](https://www.mathworks.com/help/releases/R2025a/matlab/ref/spy.html?overload=spy+false)). 
 
-Once you have this done, check the box below for an example solution. 
+Once you have this done, check the box below for an example solution. Make sure your output looks similar before moving on. 
 
 {% details Click here to see output %}
 Add photo here of what the output is supposed to look like.
 {% enddetails %}
 
+### Function Default Values
+
+{% highlight matlab %}
+function [] = Game_of_Life(curr_gen, total_gen)
+% Setting default values (if empty)
+if isempty(curr_gen)
+  curr_gen = zeros(32);
+end
+{% endhighlight %}
+
 
 ## Example Structures
 
-<div class="row" style="text-align: center;">
+<!-- <div class="row" style="text-align: center;">
     <img src="\assets\img\Conway_Types.png" alt="Table of different famous structures" class="center">
-</div>
+</div> -->
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Conway_Types.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Table showing different example structures that perform specific actions based on the rules. Feel free to try some of these out and/or combine them.
+</div>
 
 ---
 
