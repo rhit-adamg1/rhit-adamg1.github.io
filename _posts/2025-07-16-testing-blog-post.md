@@ -100,7 +100,7 @@ Add photo here of what the output is supposed to look like.
 
 ### Function Default Values
 
-{% highlight matlab %}
+{% highlight javascript %}
 function [] = Game_of_Life(curr_gen, total_gen)
 % Setting default values (if empty)
 if isempty(curr_gen)
