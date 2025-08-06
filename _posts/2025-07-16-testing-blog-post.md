@@ -28,7 +28,8 @@ toc:
     #   - name: Example Child Subsection 2
   - name: Getting Started with some Matlab Code
     subsections:
-      -name: Function Default Values
+      - name: Project Structure
+      - name: Function Default Values
   - name: Citations
   - name: Footnotes
   - name: Code Blocks
@@ -97,6 +98,10 @@ Once you have this done, check the box below for an example solution. Make sure 
 {% details Click here to see output %}
 Add photo here of what the output is supposed to look like.
 {% enddetails %}
+
+### Project Structure
+
+There are many different ways that you can organize your project based on your needs and preferences, but, in general, it is better to break it down into different functions to make the code more versatile, easier to understand and debug, and more reusable. In this case, we will have the following functions: (1) our main ***Game_of_Life*** function, in which the user can specify the number of iterations/epochs/generations, as well as the initial pattern; (2) an ***evolve*** function that computes the state of the next generation based on the current state and the rules of the game; and (3) a ***n_neighbors*** function that computes the number of neighbors of each cell, thus aiding in the process inside the ***evolve*** function. Let's work on these functions independently and use our test pattern (the Blinker) to test the functionality. *Note:* You may also have a main script to create an initial pattern and call the functions in the correct manner, or simply just run them using the command window. 
 
 ### Function Default Values
 
