@@ -76,6 +76,16 @@ For this project, you will create your own Game of Life function using Matlab, a
 
 ## Let's Get Started with some Matlab Code
 
+In this project, we will store our current generations in a matrix format. The matrix size (rows and columns) will determine the size of your Game of Life panel, and each entry in the matrix represents one individual cell. If the matrix entry is equal to 0, then the cell is dead; if it is equal to 1, then the cell is alive. We are using a matrix here because it makes it easier to compute how it will change for each generation and it also makes it easier to plot it. 
+
+`TODO #1:` To get started, manually create a 16x16 matrix with zeros and then add three live cells on top of each other (making a vertical line - Blinker). To plot this instance, use the ***spy*** Matlab function ([see documentation](https://www.mathworks.com/help/releases/R2025a/matlab/ref/spy.html?overload=spy+false)). 
+
+Once you have this done, check the box below for an example solution. 
+
+{% details Click here to see output %}
+Add photo here of what the output is supposed to look like.
+{% enddetails %}
+
 
 ## Example Structures
 
