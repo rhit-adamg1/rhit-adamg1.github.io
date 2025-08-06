@@ -27,6 +27,8 @@ toc:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
   - name: Getting Started with some Matlab Code
+    subsections:
+      -name: Function Default Values
   - name: Citations
   - name: Footnotes
   - name: Code Blocks
