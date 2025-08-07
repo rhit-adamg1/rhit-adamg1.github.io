@@ -109,7 +109,7 @@ Let's start with your main ***Game_of_Life*** function. Here, the inputs should 
 
 `TODO #2:` Create your ***Game_of_Life*** function that takes two inputs: the initial pattern and the total number of generations. The function should contain a loop that runs for the specified number of iterations, plots the current state of the game, and updates it according with the rules (this last part will be done by calling the ***evolve*** function that you will create later). 
 
-For this function, we will also want to define default values for the inputs, in case the user passes in an empty variable ([ ]). There are many ways to do this with Matlab, but one of the simplest is to use the built-in ***isempty()*** function to check wheter the input variables are empty or not. If they are empty, give them a default value. 
+For this function, we will also want to define default values for the inputs, in case the user passes in an empty variable ([ ]). There are many ways to do this with Matlab, but one of the simplest is to use the built-in ***isempty()*** function ([see documentation](https://www.mathworks.com/help/matlab/ref/double.isempty.html)) to check wheter the input variables are empty or not. If they are empty, give them a default value. 
 
 `TODO #3:` Add default values for both input variables. Make the blinker you made in task 1 be the default initial state and the maximum number of generations to be 100. 
 
@@ -131,7 +131,7 @@ end
 
 
 
-{% highlight matlab %}
+<!-- {% highlight matlab %}
 function [] = Game_of_Life(curr_gen, total_gen)
 % Setting default values (if empty)
 if isempty(curr_gen)
@@ -139,7 +139,13 @@ if isempty(curr_gen)
 end
 % Perform function actions...
 end
-{% endhighlight %}
+{% endhighlight %} -->
+
+### Evolve Function
+
+Now it's time to work on your ***evolve*** function, which will be called in every iteration of the main loop of the ***Game_of_Life*** function. This function should receive the current state of the game as an input, and return the updated state given the rules of the game of life (see introduction).
+
+`TODO #4:` Implement the ***evolve*** function. It should go over every cell on the board, count its live neighbors, and apply the correct outcome according to the rules. *Note:* be careful with the cells on the edge of the board, they don't have as many neighring cells to check. 
 
 ## Example Structures
 
