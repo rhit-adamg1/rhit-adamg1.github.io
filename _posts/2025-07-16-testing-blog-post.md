@@ -27,9 +27,9 @@ toc:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
   - name: Getting Started with some Matlab Code
+  - name: Project Structure
     subsections:
-      - name: Project Structure
-      - name: Function Default Values
+      - name: Main Game of Life Function
   - name: Citations
   - name: Footnotes
   - name: Code Blocks
@@ -99,16 +99,27 @@ Once you have this done, check the box below for an example solution. Make sure 
 Add photo here of what the output is supposed to look like.
 {% enddetails %}
 
-### Project Structure
+## Project Structure
 
-There are many different ways that you can organize your project based on your needs and preferences, but, in general, it is better to break it down into different functions to make the code more versatile, easier to understand and debug, and more reusable. In this case, we will have the following functions: (1) our main ***Game_of_Life*** function, in which the user can specify the number of iterations/epochs/generations, as well as the initial pattern; (2) an ***evolve*** function that computes the state of the next generation based on the current state and the rules of the game; and (3) a ***n_neighbors*** function that computes the number of neighbors of each cell, thus aiding in the process inside the ***evolve*** function. Let's work on these functions independently and use our test pattern (the Blinker) to test the functionality. *Note:* You may also have a main script to create an initial pattern and call the functions in the correct manner, or simply just run them using the command window. 
+There are many different ways that you can organize your project based on your needs and preferences, but, in general, it is better to break it down into different functions to make the code more versatile, easier to understand and debug, and more reusable. In this case, we will have the following functions: (1) our main ***Game_of_Life*** function, in which the user can specify the number of epochs/generations, as well as the initial pattern; (2) an ***evolve*** function that computes the state of the next generation based on the current state and the rules of the game; and (3) a ***n_neighbors*** function that computes the number of neighbors of each cell, thus aiding in the process inside the ***evolve*** function. Let's work on these functions independently and use our test pattern (the Blinker) to test the functionality. *Note:* You may also have a main script to create an initial pattern and call the functions in the correct manner, or simply just run them using the command window. 
 
-### Function Default Values
+### Main Game of Life Function
+
+Let's start with your main ***Game_of_Life*** function. Here, the inputs should be the initial pattern of the game and the total number of generations to run the simulation. We also want to add default values for these variables in case the user inputs blank variables. 
+
+`TODO #2:` Create your ***Game_of_Life*** function that takes two inputs: the initial pattern and the total number of generations. The function should contain a loop that runs for the specified number of iterations, plots the current state of the game, and updates it according with the rules (this last part will be done by calling the ***evolve*** function that you will create later). 
+
+For this function, we will also want to define default values for the inputs, in case the user passes in an empty variable ([ ]). There are many ways to do this with Matlab, but one of the simplest is to use the built-in ***isempty()*** function to check wheter the input variables are empty or not. If they are empty, give them a default value. 
+
+`TODO #3:` Add default values for both input variables. Make the blinker you made in task 1 be the default initial state and the maximum number of generations to be 100. 
+
+{% details If you are stuck, click here to see a partial implementation %}
 
 ~~~ matlab
 function [] = Game_of_Life(curr_gen, total_gen)
 % Setting default values (if empty)
 if isempty(curr_gen)
+  % Set default initial pattern here...
   curr_gen = zeros(32);
 end
 % Perform function actions...
@@ -116,7 +127,10 @@ end
 end
 ~~~
 
-```liquid
+{% enddetails %}
+
+
+
 {% highlight matlab %}
 function [] = Game_of_Life(curr_gen, total_gen)
 % Setting default values (if empty)
@@ -124,9 +138,9 @@ if isempty(curr_gen)
   curr_gen = zeros(32);
 end
 % Perform function actions...
-
 end
 {% endhighlight %}
+
 ## Example Structures
 
 <!-- <div class="row" style="text-align: center;">
