@@ -105,14 +105,16 @@ There are many different ways that you can organize your project based on your n
 
 ### Function Default Values
 
-{% highlight matlab %}
+~~~ matlab
 function [] = Game_of_Life(curr_gen, total_gen)
 % Setting default values (if empty)
 if isempty(curr_gen)
   curr_gen = zeros(32);
 end
+% Perform function actions...
+
 end
-{% endhighlight %}
+~~~
 
 
 ## Example Structures
