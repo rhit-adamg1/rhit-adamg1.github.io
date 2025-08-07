@@ -116,7 +116,17 @@ end
 end
 ~~~
 
+```liquid
+{% highlight matlab %}
+function [] = Game_of_Life(curr_gen, total_gen)
+% Setting default values (if empty)
+if isempty(curr_gen)
+  curr_gen = zeros(32);
+end
+% Perform function actions...
 
+end
+{% endhighlight %}
 ## Example Structures
 
 <!-- <div class="row" style="text-align: center;">
