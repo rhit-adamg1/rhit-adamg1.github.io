@@ -115,7 +115,7 @@ For this function, we will also want to define default values for the inputs, in
 
 {% details If you are stuck, click here to see a partial implementation %}
 
-~~~ matlab
+```matlab
 function [] = Game_of_Life(curr_gen, total_gen)
 % Setting default values (if empty)
 if isempty(curr_gen)
@@ -125,11 +125,21 @@ end
 % Perform function actions...
 
 end
-~~~
+```
 
 {% enddetails %}
 
+```matlab
+function [] = Game_of_Life(curr_gen, total_gen)
+% Setting default values (if empty)
+if isempty(curr_gen)
+  % Set default initial pattern here...
+  curr_gen = zeros(32);
+end
+% Perform function actions...
 
+end
+```
 
 <!-- {% highlight matlab %}
 function [] = Game_of_Life(curr_gen, total_gen)
