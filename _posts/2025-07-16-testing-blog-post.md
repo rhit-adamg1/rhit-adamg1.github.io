@@ -129,19 +129,8 @@ end
 
 {% enddetails %}
 
-```matlab
-function [] = Game_of_Life(curr_gen, total_gen)
-% Setting default values (if empty)
-if isempty(curr_gen)
-  % Set default initial pattern here...
-  curr_gen = zeros(32);
-end
-% Perform function actions...
 
-end
-```
-
-<!-- {% highlight matlab %}
+{% highlight matlab %}
 function [] = Game_of_Life(curr_gen, total_gen)
 % Setting default values (if empty)
 if isempty(curr_gen)
@@ -149,13 +138,15 @@ if isempty(curr_gen)
 end
 % Perform function actions...
 end
-{% endhighlight %} -->
+{% endhighlight %}
 
 ### Evolve Function
 
 Now it's time to work on your ***evolve*** function, which will be called in every iteration of the main loop of the ***Game_of_Life*** function. This function should receive the current state of the game as an input, and return the updated state given the rules of the game of life (see introduction).
 
 `TODO #4:` Implement the ***evolve*** function. It should go over every cell on the board, count its live neighbors, and apply the correct outcome according to the rules. *Note:* be careful with the cells on the edge of the board, they don't have as many neighring cells to check. 
+
+`TODO #5:` Add an option to stop the loop prematurely if the user presses any key. This will make it easier to interact with the simulation. No hints will be given for this part, figure it out by reading the documentation. 
 
 ## Example Structures
 
