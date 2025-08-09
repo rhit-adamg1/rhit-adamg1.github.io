@@ -115,6 +115,7 @@ For this function, we will also want to define default values for the inputs, in
 
 {% details If you are stuck, click here to see a partial implementation %}
 
+
 ```matlab
 function [] = Game_of_Life(curr_gen, total_gen)
 % Setting default values (if empty)
@@ -128,17 +129,6 @@ end
 ```
 
 {% enddetails %}
-
-
-{% highlight matlab %}
-function [] = Game_of_Life(curr_gen, total_gen)
-% Setting default values (if empty)
-if isempty(curr_gen)
-  curr_gen = zeros(32);
-end
-% Perform function actions...
-end
-{% endhighlight %}
 
 ### Evolve Function
 
@@ -154,10 +144,7 @@ Now it's time to work on your ***evolve*** function, which will be called in eve
     <img src="\assets\img\Conway_Types.png" alt="Table of different famous structures" class="center">
 </div> -->
 
-{% highlight m %}
-curr_gen = zeros(32);
-curr_gen(5:7, 8) = [1; 1; 1];
-{% endhighlight %}
+Once you have completed all the parts (TODO's) outlined above and your Game of Life works properly, it is time to now be creative and create interesting shapes based on your initial conditions. Below is a figure showing different structures that either stay still (first column), or oscillate in a repeatable patter (second column), or move around the page (third column) similar to the example gif in the beginning. Your task is to be creative and mix and match some of these structures to create interesting patterns. Have fun!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
