@@ -16,6 +16,7 @@ bibliography: 2018-12-22-distill.bib
 
 toc:
   - name: Introduction
+  - name: Getting Started with Images in Matlab
 
 ---
 
@@ -29,3 +30,6 @@ In this project, you will learn the basics of working with images in general, an
     <li> Utilize different types of image tracking and identification. 
 </ul>
 
+## Getting Started with Images in Matlab
+
+To start with this project, download the set of images on Moodle (and link here) and save them in your current workspace in Matlab. I recommend you create a folder just for this project so you can keep your scrips and functions organized and in the same place. 
