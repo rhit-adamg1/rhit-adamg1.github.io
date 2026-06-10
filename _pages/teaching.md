@@ -16,12 +16,18 @@ Introduces the engineering design process including problem definition, analysis
 #### ES201 - Conservation & Accounting Principles
 A common framework for engineering analysis is developed using the concepts of a system, accounting and conservation of extensive properties, constitutive relations, constraints, and modeling assumptions. Conservation equations for mass, momentum, and energy, and an entropy accounting equation are developed. Applications taken from all engineering disciplines stress constructing solutions from basic principles.
 
-#### ME327 - Numerical Methods of Engineering Analysis
+#### ME227 - Numerical Methods 
 This is an inter-disciplinary course focusing on the generation and interpretation of numerical solutions and the processing of numerical data for engineering problems. Topics include approximate solutions to nonlinear algebraic and differential equations, initial and boundary value problems, numerical integration and differentiation, optimization, data conditioning, and regression analysis. Trade-offs between accuracy and cost are emphasized. Matlab is used as the programming language.
 
-#### ME406 - Control Systems
+#### ME230 - Mechatronic Systems
+Applications of microprocessors and microcontrollers and digital electronics to the design and utilizations of embedded control systems in smart systems and products. Topics include Boolean logic and algebra, system hardware and software development, and interfacing for mechanical applications.
+
+#### ME306 - Control Systems
 Basic principles of feedback control theory. Mathematical modeling and performance analysis of dynamical systems. Includes stability analysis, root locus compensation and design, and frequency response analysis. Implementation of control system analysis and design is gained with several laboratory experiences. 
 
-#### ME430 - Mechatronic Systems
-Applications of microprocessors and microcontrollers and digital electronics to the design and utilizations of embedded control systems in smart systems and products. Topics include Boolean logic and algebra, system hardware and software development, and interfacing for mechanical applications.
+#### MDS437/537 - Intro to MEMS
+
+Properties of silicon wafers, wafer-level processes, vacuum systems, thin-film deposition via PVD, dry and wet
+etching, photolithography, surface and bulk micromachining, process integration, MEMS applications: heat
+actuators, capacitive accelerometer, DLP, bio-sensor, and pressure sensor. 
 
